@@ -1,6 +1,31 @@
-.hero .header {
+.base {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-links {
+    justify-content: flex-end;
+    align-self: flex-end;
+}
+
+.header-list-right {
+    display: flex;
+    list-style-type: none;
+}
+
+.header {
+    margin-bottom: auto;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.hero, .header, .footer {
     background-color: #1F2937;
     color: #F9FaF8;
+
+    display: flex;
 }
 
 .hero-main-text {
@@ -27,6 +52,11 @@
 
 .header-logo-text {
     font-size: 24px;
+    justify-content: center;
+}
+
+.call-to-action {
+    color: white;
 }
 
 .information-header-text {
