@@ -47,19 +47,16 @@
     flex-direction: row;
 }
 
-.main-area {
-    display: flex;
-    flex-direction: column;
-    flex: 4 0 0;
-    border: 1px solid greenyellow;
-}
-
 .hero-left {
     display: flex;
     flex-direction: column;
     flex: 1 0 0;
-    text-align: center;
+    text-align: left;
     border: 1px solid red;
+}
+
+.hero-left > * {
+    padding-left: 40%;
 }
 
 .hero-main-text {
@@ -83,8 +80,6 @@
     margin-bottom: 10px;
     justify-content: center;
     align-content: center;
-    
-    
 }
 
 .secondary-text {
