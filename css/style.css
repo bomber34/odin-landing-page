@@ -3,18 +3,33 @@
     flex-direction: column;
 }
 
+.header {
+    display: flex;
+    margin-bottom: auto;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-logo-text {
+    font-size: 24px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-self: center;
+}
+
 .header-links {
-    justify-content: flex-end;
-    align-self: flex-end;
+    display: flex;
+    flex: 1;
 }
 
 .header-list-right {
     display: flex;
+    flex: 1;
+    align-self: center;
+    justify-content: space-evenly;
     list-style-type: none;
-}
-
-.header {
-    margin-bottom: auto;
+    color: #E5E7EB;
 }
 
 .footer {
@@ -48,11 +63,6 @@
 
 .button-color {
     background-color: #3882F6;
-}
-
-.header-logo-text {
-    font-size: 24px;
-    justify-content: center;
 }
 
 .call-to-action {
