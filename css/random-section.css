@@ -1,0 +1,49 @@
+.random-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: white;
+    padding-bottom: 3%;
+}
+
+#information-header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
+}
+
+#random-info-card-area {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin: auto 20%;
+    justify-content: space-evenly;
+}
+
+.random-info-card {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.square-card {
+    display: flex;
+    flex: 1;
+    border-radius: 20px;
+    border-color: #3882F6;
+    border-width: 4px;
+    border-style: solid;
+    min-height: 150px;
+    max-height: 150px;
+    width: 150px;
+}
+
+.square-card-text {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    text-align: center;
+    color: #1F2937;
+}

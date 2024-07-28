@@ -1,0 +1,46 @@
+.hero {
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 0;
+    text-align: left;
+}
+
+.hero-left > p {
+    padding-left: 40%;
+}
+
+#hero-main-text {
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 0px;
+}
+
+#hero-secondary-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-right {
+    display: flex;
+    flex: 1;
+}
+
+.placeholder-area {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: #F9FaF8;
+    background-color: gray;
+    margin: 8% 23% 0% 10%;
+}
