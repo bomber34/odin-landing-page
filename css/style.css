@@ -48,6 +48,11 @@
     flex-direction: row;
 }
 
+.hero {
+    padding-top: 1%;
+    padding-bottom: 5%;
+}
+
 .hero-left {
     display: flex;
     flex-direction: column;
@@ -105,7 +110,7 @@
     align-items: center;
     color: #F9FaF8;
     background-color: gray;
-    margin: 5% 23% 5% 10%;
+    margin: 8% 23% 0% 10%;
 }
 
 .random-info {
@@ -113,6 +118,7 @@
     flex-direction: column;
     flex: 1;
     background-color: white;
+    padding-bottom: 3%;
 }
 
 #random-info-card-area {
@@ -135,7 +141,7 @@
     flex: 1;
     border-radius: 20px;
     border-color: #3882F6;
-    border-width: 5px;
+    border-width: 4px;
     border-style: solid;
     min-height: 150px;
     max-height: 150px;
@@ -155,6 +161,8 @@
     flex-direction: column;
     flex: 1;
     background-color: #E5E7EB;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 #inspiring-quote {
@@ -229,4 +237,8 @@
     font-weight: bolder;
     color: #1F2937;
     text-align: center;
+}
+
+.footer {
+    padding: 2%;
 }
