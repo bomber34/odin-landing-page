@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     margin: 0;
+    user-select: text;
 }
 
 .header {
@@ -229,8 +230,11 @@
 #cta-btn {
     border: 2px solid #F9FaF8;
     color:#F9FaF8;
-    background-color: #3882F6;
 }
+
+.sign-up-btn:active {
+    background-color: #3a71cb;
+} 
 
 #information-header-text {
     font-size: 36px;
