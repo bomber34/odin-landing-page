@@ -10,13 +10,14 @@
     justify-content: space-between;
 }
 
-.header-logo-text {
+#header-logo-text {
     font-size: 24px;
+    color: #F9FaF8;
     display: flex;
     flex: 1;
     justify-content: center;
     align-self: center;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .header-links {
@@ -59,9 +60,6 @@
     flex-direction: column;
     flex: 1 0 0;
     text-align: left;
-    /*
-    border: 1px solid red;
-    */
 }
 
 .hero-left > p {
@@ -99,9 +97,6 @@
 .hero-right {
     display: flex;
     flex: 1;
-    /*
-    border: 1px solid purple;
-    */
 }
 
 .placeholder-area {
@@ -120,6 +115,13 @@
     flex: 1;
     background-color: white;
     padding-bottom: 3%;
+}
+
+#information-header-text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    text-align: center;
 }
 
 #random-info-card-area {
@@ -235,13 +237,6 @@
 .sign-up-btn:active {
     background-color: #3a71cb;
 } 
-
-#information-header-text {
-    font-size: 36px;
-    font-weight: bolder;
-    color: #1F2937;
-    text-align: center;
-}
 
 .footer {
     padding: 2%;
