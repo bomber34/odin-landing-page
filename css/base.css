@@ -45,3 +45,11 @@
 .footer {
     padding: 2%;
 }
+
+.footer > a {
+    color: #F9FaF8;
+}
+
+.footer > a:hover {
+    color: #E5E7EB;
+}

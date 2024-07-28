@@ -41,6 +41,7 @@
     justify-content: center;
     align-items: center;
     color: #F9FaF8;
-    background-color: gray;
+    background-color: whitesmoke;
     margin: 8% 23% 0% 10%;
+    max-height: 180px;
 }
