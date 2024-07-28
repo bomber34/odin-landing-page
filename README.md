@@ -1,8 +1,13 @@
 # odin-landing-page
 Implements https://www.theodinproject.com/lessons/foundations-landing-page 
 
+# Used Fonts (Unmodified):
+Roboto designed by Christian Robertson
+Licensed under [Apache-2.0 license](https://www.apache.org/licenses/LICENSE-2.0)
+https://fonts.google.com/specimen/Roboto?query=roboto
+https://github.com/googlefonts/roboto
 
-Used images:
+# Used images:
 
 Summer Sun Sunny SVG Vector by Romabedon
 Licensed under CC Attribution License

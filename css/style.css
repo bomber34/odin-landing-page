@@ -1,8 +1,14 @@
 @import "base.css";
 @import "cta-section.css";
+@import "custom-fonts.css";
 @import "hero.css";
 @import "quote-section.css";
 @import "random-section.css";
+
+#base {
+    font-family: roboto;
+}
+
 
 .hero, .header, .footer {
     background-color: #1F2937;
