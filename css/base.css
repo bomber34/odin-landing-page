@@ -8,6 +8,7 @@
 .header {
     margin-bottom: auto;
     justify-content: space-between;
+    margin-left: -12%;
 }
 
 #header-logo-text {
